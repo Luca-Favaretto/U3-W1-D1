@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="mb-4">Poker Star</h1>
+      <h2 class="mb-4">Scommessa tra due giocatori</h2>
+
+      <form id="my-form" class="mb-4">
+        <div class="form-group">
+          <label for="player1">Giocatore 1</label>
+          <input
+            id="player1"
+            type="number"
+            class="form-control"
+            id="player1"
+            placeholder="Inserisci il numero giocatore 1"
+            min="1"
+            max="100"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="player2">Giocatore 2</label>
+          <input
+            id="player2"
+            type="number"
+            class="form-control"
+            id="player2"
+            placeholder="Inserisci il numero giocatore 2"
+            min="1"
+            max="100"
+            required
+          />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Scommetti</button>
+      </form>
+      <main></main>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
